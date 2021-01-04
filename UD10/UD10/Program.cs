@@ -69,6 +69,7 @@ namespace UD10
                     persona1.mostrarIMC();
                     persona2.mostrarIMC();
                     persona3.mostrarIMC();
+                    Console.WriteLine();
 
                     if (persona1.esMayorDeEdad()) Console.WriteLine("Es mayor de edad");
                     else Console.WriteLine("Es menor de edad");
@@ -79,9 +80,29 @@ namespace UD10
                     if (persona3.esMayorDeEdad()) Console.WriteLine("Es mayor de edad");
                     else Console.WriteLine("Es menor de edad");
 
-                    persona1.ToString();
-                    persona2.ToString();
-                    persona3.ToString();
+                    Console.WriteLine();
+                    Console.WriteLine(persona1.ToString());
+                    Console.WriteLine(persona2.ToString());
+                    Console.WriteLine(persona3.ToString());
+                    break;
+                case "3":
+                    int longitud_pass = 0;
+                    
+                    Console.WriteLine("Dame una longitud para la array de passwords");
+                    Password[] array_password = new Password[Convert.ToInt32(Console.ReadLine())];
+                    bool[] array_fuerte = new bool[array_password.Length];
+                    Console.WriteLine("Dame una longitud para los passwords de la array");
+                    longitud_pass = Convert.ToInt32(Console.ReadLine());
+
+                    for (int i = 0; i < array_password.Length; i++)
+                    {
+                        array_password[i] = new Password(longitud_pass);
+                        array_fuerte[i] = array_password[i].esFuerte();
+
+                        array_password[i].MostrarContraseña();
+                        Console.WriteLine(array_fuerte[i]);
+                    }
+
                     break;
                 default:
                     break;
