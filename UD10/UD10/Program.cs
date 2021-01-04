@@ -69,6 +69,7 @@ namespace UD10
                     persona1.mostrarIMC();
                     persona2.mostrarIMC();
                     persona3.mostrarIMC();
+                    Console.WriteLine();
 
                     if (persona1.esMayorDeEdad()) Console.WriteLine("Es mayor de edad");
                     else Console.WriteLine("Es menor de edad");
@@ -79,9 +80,10 @@ namespace UD10
                     if (persona3.esMayorDeEdad()) Console.WriteLine("Es mayor de edad");
                     else Console.WriteLine("Es menor de edad");
 
-                    persona1.ToString();
-                    persona2.ToString();
-                    persona3.ToString();
+                    Console.WriteLine();
+                    Console.WriteLine(persona1.ToString());
+                    Console.WriteLine(persona2.ToString());
+                    Console.WriteLine(persona3.ToString());
                     break;
                 default:
                     break;
