@@ -10,7 +10,12 @@ namespace UD10
 
             string opcion = "";
             string opcion2 = "";
-            
+
+            string nombre = "";
+            int edad = 0;
+            char sexo = ' ';
+            float peso = 0;
+            float altura = 0;
 
             Console.WriteLine("Escoge una opcion entre el 1 y el 9");
 
@@ -39,6 +44,44 @@ namespace UD10
                     }
                     Console.WriteLine(cuenta1.ToString());
 
+                    break;
+                case "2":
+                    Console.WriteLine("Dame un nombre");
+                    nombre = Console.ReadLine();
+                    Console.WriteLine("Dame una edad");
+                    edad = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Dame un sexo (H o M)");
+                    sexo = Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine("Dame un peso");
+                    peso = Convert.ToSingle(Console.ReadLine());
+                    Console.WriteLine("Dame una altura");
+                    altura = Convert.ToSingle(Console.ReadLine());
+
+                    Persona persona1 = new Persona(nombre,edad,sexo,peso,altura);
+                    Persona persona2 = new Persona(nombre, edad, sexo);
+                    Persona persona3 = new Persona();
+                    persona3.Nombre = "Eric";
+                    persona3.Edad = 27;
+                    persona3.Sexo = 'H';
+                    persona3.Peso = 55;
+                    persona3.Altura = 1.69f;
+
+                    persona1.mostrarIMC();
+                    persona2.mostrarIMC();
+                    persona3.mostrarIMC();
+
+                    if (persona1.esMayorDeEdad()) Console.WriteLine("Es mayor de edad");
+                    else Console.WriteLine("Es menor de edad");
+
+                    if (persona2.esMayorDeEdad()) Console.WriteLine("Es mayor de edad");
+                    else Console.WriteLine("Es menor de edad");
+
+                    if (persona3.esMayorDeEdad()) Console.WriteLine("Es mayor de edad");
+                    else Console.WriteLine("Es menor de edad");
+
+                    persona1.ToString();
+                    persona2.ToString();
+                    persona3.ToString();
                     break;
                 default:
                     break;
