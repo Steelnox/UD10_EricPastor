@@ -1,0 +1,13 @@
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\bin\Debug\netcoreapp3.1\UD10.exe
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\bin\Debug\netcoreapp3.1\UD10.deps.json
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\bin\Debug\netcoreapp3.1\UD10.runtimeconfig.json
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\bin\Debug\netcoreapp3.1\UD10.runtimeconfig.dev.json
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\bin\Debug\netcoreapp3.1\UD10.dll
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\bin\Debug\netcoreapp3.1\UD10.pdb
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\obj\Debug\netcoreapp3.1\UD10.csprojAssemblyReference.cache
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\obj\Debug\netcoreapp3.1\UD10.AssemblyInfoInputs.cache
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\obj\Debug\netcoreapp3.1\UD10.AssemblyInfo.cs
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\obj\Debug\netcoreapp3.1\UD10.csproj.CoreCompileInputs.cache
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\obj\Debug\netcoreapp3.1\UD10.dll
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\obj\Debug\netcoreapp3.1\UD10.pdb
+D:\Cursillos\Ejercicios\Proyectos\UD10\UD10\obj\Debug\netcoreapp3.1\UD10.genruntimeconfig.cache
